@@ -1,0 +1,52 @@
+#jogo {
+    width: 303px;
+    height: 300px;
+    border: solid 3px;
+    margin: auto;
+}
+
+.linha {
+    height: 100px;
+    border-bottom: solid 1px;
+}
+
+.casa {
+    width: 100px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+
+.resultado{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+@media screen and (min-width: 600px){
+    #jogo {
+        width: 603px;
+        height: 600px;
+    }
+
+    .linha {
+        height: 200px;
+    }
+
+    .casa {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #jogo {
+        width: 1002px;
+        height: 1000px;
+    }
+
+    .linha {
+        height: 333px;
+    }
+
+    .casa {
+        width: 333px;
+    }
+}
